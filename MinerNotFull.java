@@ -1,7 +1,8 @@
+
 public class MinerNotFull
    extends Miner
 {
-   private int resource_count;
+   //private int resource_count;
 
    public MinerNotFull(String name, Point p, int r, int ani_r, int r_lim)
    {
@@ -9,7 +10,7 @@ public class MinerNotFull
       this.resource_count = 0;
    }
 
-   public void setResourceCount(int n)
+  /** public void setResourceCount(int n)
    {
       this.resource_count = n;
    }
@@ -18,7 +19,7 @@ public class MinerNotFull
    {
       return this.resource_count;
    }
-
+**/
    public String entityString()
    {
       return "miner " + this.getName() + " " + this.getPosition().xCoord()

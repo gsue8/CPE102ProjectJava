@@ -1,3 +1,4 @@
+
 public class Obstacle
    extends Subject
 {

@@ -1,7 +1,8 @@
+
 public class MinerFull
    extends Miner
 {
-   private int resource_count;
+  // private int resource_count;
   
    public MinerFull(String name, Point p, int r, int ani_r, int r_Lim)
    {

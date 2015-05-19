@@ -1,3 +1,4 @@
+
 public class Blacksmith
    extends SubjectWRD
 {
